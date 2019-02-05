@@ -1,4 +1,5 @@
-//  server.js
+// server.js
+
 const Server = require('patchwire').Server;
 const ClientManager = require('patchwire').ClientManager;
 
@@ -10,9 +11,9 @@ gameLobby.on('clientAdded', function() {
 });
 
 const server = new Server(function(client) {
-  gameLobby.addClient(client);
+    gameLobby.addClient(client);
 });
 
 server.listen(3001, function() {
-    console.log("Server is running...");
+    console.log('Server is running...')
 });

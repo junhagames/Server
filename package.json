@@ -2,13 +2,13 @@
   "name": "server",
   "version": "1.0.0",
   "description": "GameMaker Studio 2 server side",
-  "main": "server.js",
+  "main": "gm-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/junhagames/Server.git"
+    "url": "git+ssh://git@github.com/junhagames/Server.git"
   },
   "author": "",
   "license": "ISC",
